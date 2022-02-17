@@ -1,4 +1,4 @@
-# mistertoy
+# ToysAreUs
 
 ## Project setup
 ```

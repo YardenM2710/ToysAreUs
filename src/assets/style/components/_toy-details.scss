@@ -1,0 +1,67 @@
+.toy-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+      position: relative;
+      padding: 15px;
+
+    a {
+      margin-right: 20px;
+      margin-top: 10px;
+      border: 1px solid lightgrey;
+      color: grey;
+      border-radius: 5px;
+      font-size: 1em;
+      outline: none;
+      background-color: transparent;
+      padding: 5px;
+      cursor: pointer;
+      text-decoration: none
+    }
+        a:hover {
+        color: rgba(41, 40, 40, 0.774);
+        border: 1px solid rgb(70, 70, 70);
+    } 
+    .back-btn{
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      border: none;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color:rgba(250, 235, 215, 0.842);
+      color: rgba(95, 95, 95, 0.664);
+      font-weight: bold;
+    }
+    
+    .back-btn:hover{
+     
+      color: rgba(0, 0, 0, 0.664);
+      
+    }
+    
+     > button{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+ 
+    .toy-card span{
+      color: #302f2f;
+      text-shadow: #e0e0e0 1px 1px 0;
+      font-Size: 20px;
+    }
+  }
+
+  .user-details{
+    text-align: center;
+    button{
+      margin: 20px;
+    }
+    h1{
+      font-size: 2em;
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,40 @@
+.search-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    // border-bottom: solid rgba(0, 0, 0, 0.158) 1px;
+    width: 100%;
+    gap: 10px;
+    margin-block: 10px;
+    position: relative;
+
+     .search-input{
+         width: 70%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 20px;
+         
+        }
+        .select-input{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            width: 70%;
+            gap: 10px;
+            .add-toy{
+                border: solid rgba(0, 0, 0, 0) 1px;
+                color: rgba(83, 83, 83, 0.603);
+                transition-duration: 0.3s;
+            }
+            .add-toy:hover{
+                color: rgba(0, 0, 255, 0.603);
+                border: solid rgba(0, 0, 255, 0.288) 1px;
+
+            }
+     }
+   
+  }
+  

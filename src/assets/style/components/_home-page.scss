@@ -1,0 +1,46 @@
+.home-page{
+    height: 93vh;
+        background-image: url('https://images.unsplash.com/photo-1599623560574-39d485900c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        position: relative;
+
+
+        .app-header{
+            background-color: rgba(255, 255, 255, 0);
+            background-image: none;
+
+        }
+
+        .home-page-details{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100%;
+            color:rgb(255, 255, 255);
+            background-color: rgba(71, 67, 67, 0.432);
+            font-family: "JetBrains Mono", monospace;
+            p{
+                font-size: 1.5em;
+                width: 60ch;
+                color:rgb(255, 255, 255);
+                padding: 20px;
+                
+            }
+        }
+        @media (max-width: 768px){
+          .home-page-details{
+        
+            p{
+              font-size: 18px;
+                width: 30ch;
+                
+            }
+        }
+
+
+        }
+ 
+}

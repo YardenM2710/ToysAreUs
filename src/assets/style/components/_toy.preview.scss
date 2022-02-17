@@ -1,0 +1,63 @@
+.toy-preview{
+    display: flex;
+    position: relative;
+    padding: 15px;
+    max-width: 350px;
+    box-shadow: 0px 0px 5px 1px rgba(173, 173, 173, 0.43);
+
+    .label{
+      display: flex;
+      margin-top: 2px;
+      text-align: center;
+      width:fit-content;
+      justify-content: center;
+      gap: 5px;
+      
+      span{
+        transition-duration: 0.3s;
+        color: #4075b5c0!important;
+        text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.219);
+        border-radius:10px;
+        padding:0 10px 0 10px;
+
+       }
+       span:hover{
+        color: #ffffffc0!important;
+       }
+    }
+     
+      .edit-links{
+    display: flex;
+    justify-content: center;
+    a {
+      margin-right: 20px;
+      margin-top: 10px;
+      border: 1px solid lightgrey;
+      color: grey;
+      border-radius: 5px;
+      font-size: 1em;
+      outline: none;
+      padding: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition-duration: 0.3s;
+
+    }
+        a:hover {
+        color: rgba(41, 40, 40, 0.774);
+        border: 1px solid rgb(70, 70, 70);
+    } 
+  }
+
+  .buy-now{
+    background-color: #0be881;
+    color: rgb(78, 78, 78) !important;
+    font-weight: bold !important;
+    text-align: center;
+    width: 100px;
+  }
+  }
+
+
